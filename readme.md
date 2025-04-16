@@ -2,16 +2,10 @@
   <img src="https://user-images.githubusercontent.com/6391763/90599044-ca070300-e211-11ea-8b8a-89354dd30bd5.png" alt="Logo"/>
 </p>
 
-<p align="center">
-  <a href="https://twitter.com/ghoshnirmalya_">
-    <img alt="Twitter: Nirmalya Ghosh" src="https://img.shields.io/twitter/follow/ghoshnirmalya_.svg?style=social" target="_blank" />
-  </a>
-</p>
-
 This is a boilerplate for building applications using Strapi and Next.js. This boilerplate consists of the following:
 
-1. [**frontend**](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate/tree/master/frontend): Next.js application
-2. [**backend**](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate/tree/master/backend): Dockerized Strapi application
+1. [**frontend**](https://github.com/sabat-12067/nextjs-strapi-boilerplate/tree/master/frontend): Next.js application
+2. [**backend**](https://github.com/sabat-12067/nextjs-strapi-boilerplate/tree/master/backend): Dockerized Strapi application
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -57,11 +51,11 @@ It supports GraphQL Query and Mutation out of the box.
 
 ## Packages
 
-### 1. [**Frontend**](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate/tree/master/frontend): Next.js application
+### 1. [**Frontend**](https://github.com/sabat-12067/nextjs-strapi-boilerplate/tree/master/frontend): Next.js application
 
 This application is the primary user-facing application. Once it’s up and running (see Development section), it’s available on http://localhost:3000/.
 
-### 2. [**Backend**](https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate/tree/master/backend): Dockerized Strapi application
+### 2. [**Backend**](https://github.com/sabat-12067/nextjs-strapi-boilerplate/tree/master/backend): Dockerized Strapi application
 
 [Strapi](https://strapi.io/) is the leading open-source headless CMS. It’s 100% Javascript, fully customizable and developer-first.
 
@@ -70,7 +64,7 @@ This application is the primary user-facing application. Once it’s up and runn
 ### 1. **Clone the application**
 
 ```sh
-git clone https://github.com/ghoshnirmalya/nextjs-strapi-boilerplate
+git clone https://github.com/sabat-12067/nextjs-strapi-boilerplate
 ```
 
 ### 2. **Install necessary dependencies for the frontend application**
@@ -134,25 +128,6 @@ c. Enable the Google provider.
 ![Enable informations for the Google provider](https://user-images.githubusercontent.com/6391763/91742078-47981f00-ebd3-11ea-97e4-9cd8c2a27f05.png)
 
 d. Click on the "Done" button and now we can log into our Next.js application using our Google account.
-
-## Deployment
-
-### Frontend application
-
-Click on the button below to deploy the frontend application on Vercel. You'll need to [sign up for a free Vercel account](https://vercel.com/signup/).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fghoshnirmalya%2Fnextjs-strapi-boilerplate%2Ftree%2Fmaster%2Ffrontend&env=NEXT_PUBLIC_API_URL,NEXT_PUBLIC_DATABASE_URL,NEXTAUTH_URL,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET&project-name=nextjs-strapi-boilerplate&repo-name=nextjs-strapi-boilerplate)
-
-### Backend application
-
-We're still working on it.
-
-## Other interesting repositories
-
-1. [Hasura Next.js Boilerplate](https://github.com/ghoshnirmalya/nextjs-hasura-boilerplate)
-2. [Hasura Next.js Trello Clone](https://github.com/ghoshnirmalya/nextjs-hasura-trello-clone)
-3. [React Search Box](https://github.com/ghoshnirmalya/react-search-box)
-4. [LinkedIn Clone using Create React App](https://github.com/ghoshnirmalya/linkedin-clone-react-frontend)
 
 ## License
 
